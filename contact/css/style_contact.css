@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* The following code styles custom classes for elements featured on the Contact page. (contact.htm) */
+.form {
+	float: left;
+	font-size: 16px;
+	text-align: justify;
+	width: 715px;
+}
+.info {
+	float: right;
+	font-size: 16px;
+	margin: 0 0 .5% 40px;
+	text-align: justify;
+	width: 205px;
+}
+.info ul {
+	margin: 15px 0 10px 0;
+}
+.socialmedia li {
+	display: inline;
+	margin-right: 5px;
+}
+
+
+/* The following code styles the contact form, based upon Chris Coyier's "A Nice and Simple Contact Form" -  */
+#contact-area {
+	margin-top: 20px;
+	width: 715px;
+}
+#contact-area input, #contact-area textarea {
+	border: 2px solid #CCC;
+	margin: 0px 0px 10px 0px;
+	padding: 5px;
+	width: 585px;
+}
+#contact-area textarea {
+	height: 100px;
+}
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #0C5;
+}
+#contact-area input.submit-button {
+	float: right;
+	margin-bottom: 20px;
+	width: 100px;
+}
+label {
+	float: left;
+	margin-right: 15px;
+	padding-top: 5px;
+	text-align: right;
+	width: 100px;
+}
+#page-wrap {
+	height: auto;
+}

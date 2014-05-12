@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* The following code styles custom classes for elements featured on the Home page. (index.htm) */
+.who {
+	float: left;
+	font-size: .75em;
+	text-align: left;
+	width: 30%;
+}
+.what {
+	float: left;
+	font-size: .75em;
+	margin: 0 0 0 5%;
+	text-align: left;
+	width: 30%;
+}
+.you {
+	float: right;
+	font-size: .75em;
+	text-align: left;
+	width: 30%;
+}
