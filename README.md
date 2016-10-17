@@ -1,3 +1,3 @@
-Dev - http://kellylawrence.ca
+Dev
 =============
-A repo containing the dev build of http://kellylawrence.ca
+A branch containing the dev version of my portfolio site.
