@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<PLAYLIST THUMB_WIDTH="125" THUMB_HEIGHT="70" THUMBS_X="290" THUMBS_Y="390" VIDEO_X="290" VIDEO_Y="65" >
-<VIDEO THUMB="thumbs/thumb1.jpg" URL="video/video1.flv"/>
-<VIDEO THUMB="thumbs/thumb2.jpg" URL="video/video2.flv"/>
-<VIDEO THUMB="thumbs/thumb3.jpg" URL="video/video3.flv"/>
-<VIDEO THUMB="thumbs/thumb4.jpg" URL="video/video4.flv"/>
-<VIDEO THUMB="thumbs/thumb5.jpg" URL="video/video5.flv"/>
-<VIDEO THUMB="thumbs/thumb6.jpg" URL="video/video6.flv"/>
-</PLAYLIST>
