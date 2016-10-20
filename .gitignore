@@ -35,3 +35,21 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+
+# Custom rules
+
+# Ignore Sass cache. #
+######################
+.sass-cache
+
+# Ignore Sass generated files. #
+################################
+#sites/all/themes/skeletontheme/css/style.css
+sites/all/themes/skeletontheme/css/style.css.map
+# Ignore NodeJS log files.
+npm-debug.log
+
+# Ignore Grunt.js files. #
+##########################
+node_modules
