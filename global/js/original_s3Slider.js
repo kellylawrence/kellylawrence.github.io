@@ -1,8 +1,8 @@
 /* ------------------------------------------------------------------------
 	s3Slider
 	
-	Developped By: Boban Karišik -> http://www.serie3.info/
-        CSS Help: Mészáros Róbert -> http://www.perspectived.com/
+	Developped By: Boban Karišik -> https://www.serie3.info/
+        CSS Help: Mészáros Róbert -> https://www.perspectived.com/
 	Version: 1.0
 	
 	Copyright: Feel free to redistribute the script/modify it, as

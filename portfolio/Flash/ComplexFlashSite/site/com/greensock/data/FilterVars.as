@@ -2,7 +2,7 @@
  * VERSION: 2.0
  * DATE: 8/1/2009
  * AS3
- * UPDATES AND DOCUMENTATION AT: http://www.TweenLite.com
+ * UPDATES AND DOCUMENTATION AT: https://www.TweenLite.com
  **/
 package com.greensock.data {
 	import com.greensock.data.VarsCore;
@@ -11,7 +11,7 @@ package com.greensock.data {
  * strict data typing and code hinting (in most code editors). See the documentation in
  * the TweenLiteVars or TweenMaxVars for more information.
  * 
- * <b>Copyright 2010, GreenSock. All rights reserved.</b> This work is subject to the terms in <a href="http://www.greensock.com/terms_of_use.html">http://www.greensock.com/terms_of_use.html</a> or for corporate Club GreenSock members, the software agreement that was issued with the corporate membership.
+ * <b>Copyright 2010, GreenSock. All rights reserved.</b> This work is subject to the terms in <a href="https://www.greensock.com/terms_of_use.html">https://www.greensock.com/terms_of_use.html</a> or for corporate Club GreenSock members, the software agreement that was issued with the corporate membership.
  * 
  * @author Jack Doyle, jack@greensock.com
  */	 

@@ -2,14 +2,14 @@
  * VERSION: 1.02
  * DATE: 2010-03-01
  * AS3 (AS2 is also available)
- * UPDATES AND DOCUMENTATION AT: http://www.TweenNano.com
+ * UPDATES AND DOCUMENTATION AT: https://www.TweenNano.com
  **/
 package com.greensock {
 	import flash.display.*;
 	import flash.events.*;
 	import flash.utils.*;
 /**
- * 	TweenNano is a super-lightweight (1.6k in AS3 and 2k in AS2) version of <a href="http://www.TweenLite.com">TweenLite</a> 
+ * 	TweenNano is a super-lightweight (1.6k in AS3 and 2k in AS2) version of <a href="https://www.TweenLite.com">TweenLite</a> 
  *  and is only recommended for situations where you absolutely cannot afford the extra 3.1k (4.7k total) that the normal 
  *  TweenLite engine would cost and your project doesn't require any plugins. Normally, it is much better to use 
  *  TweenLite because of the additional flexibility it provides via plugins and its compatibility with TimelineLite and TimelineMax. 
@@ -29,7 +29,7 @@ package com.greensock {
  * 		<li><b> Fewer overwrite modes </b>- You can either overwrite all or none of the existing tweens of the same 
  * 			object (overwrite:true or overwrite:false) in TweenNano. TweenLite, however, can use OverwriteManager to expand 
  * 			its capabilities and use modes like AUTO, CONCURRENT, PREEXISTING, and ALL_ONSTART
- * 			(see <a href="http://www.greensock.com/overwritemanager/">http://www.greensock.com/overwritemanager/</a>
+ * 			(see <a href="https://www.greensock.com/overwritemanager/">https://www.greensock.com/overwritemanager/</a>
  * 			for details).</li>
  * 
  * 		<li><b>Compared to TweenLite, TweenNano is missing the following methods/properties:</b>
@@ -149,10 +149,10 @@ package com.greensock {
  * 	  
  * 	<li> If you find this class useful, please consider joining Club GreenSock which not only helps to sustain
  * 	  ongoing development, but also gets you bonus plugins, classes and other benefits that are ONLY available 
- * 	  to members. Learn more at <a href="http://www.greensock.com/club/">http://www.greensock.com/club/</a></li>
+ * 	  to members. Learn more at <a href="https://www.greensock.com/club/">https://www.greensock.com/club/</a></li>
  * </ul>
  * 
- * <b>Copyright 2010, GreenSock. All rights reserved.</b> This work is subject to the terms in <a href="http://www.greensock.com/terms_of_use.html">http://www.greensock.com/terms_of_use.html</a> or for corporate Club GreenSock members, the software agreement that was issued with the corporate membership.
+ * <b>Copyright 2010, GreenSock. All rights reserved.</b> This work is subject to the terms in <a href="https://www.greensock.com/terms_of_use.html">https://www.greensock.com/terms_of_use.html</a> or for corporate Club GreenSock members, the software agreement that was issued with the corporate membership.
  * 
  * @author Jack Doyle, jack@greensock.com
  */	 

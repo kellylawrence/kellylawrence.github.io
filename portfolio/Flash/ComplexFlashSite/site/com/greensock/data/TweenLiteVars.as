@@ -2,7 +2,7 @@
  * VERSION: 4.02
  * DATE: 2010-03-06
  * AS3
- * UPDATES AND DOCUMENTATION AT: http://www.TweenLite.com
+ * UPDATES AND DOCUMENTATION AT: https://www.TweenLite.com
  **/
 
 package com.greensock.data {
@@ -36,7 +36,7 @@ package com.greensock.data {
  *	 	 Object.
  * </ul>
  * 
- * <b>Copyright 2010, GreenSock. All rights reserved.</b> This work is subject to the terms in <a href="http://www.greensock.com/terms_of_use.html">http://www.greensock.com/terms_of_use.html</a> or for corporate Club GreenSock members, the software agreement that was issued with the corporate membership.
+ * <b>Copyright 2010, GreenSock. All rights reserved.</b> This work is subject to the terms in <a href="https://www.greensock.com/terms_of_use.html">https://www.greensock.com/terms_of_use.html</a> or for corporate Club GreenSock members, the software agreement that was issued with the corporate membership.
  * 
  * @author Jack Doyle, jack@greensock.com
  */	 
@@ -150,7 +150,7 @@ package com.greensock.data {
 				}
 			}
 			if (TweenLite.version < 11) {
-				trace("TweenLiteVars error! Please update your TweenLite class or try deleting your ASO files. TweenLiteVars requires a more recent version. Download updates at http://www.TweenLite.com.");
+				trace("TweenLiteVars error! Please update your TweenLite class or try deleting your ASO files. TweenLiteVars requires a more recent version. Download updates at https://www.TweenLite.com.");
 			}
 		}
 		

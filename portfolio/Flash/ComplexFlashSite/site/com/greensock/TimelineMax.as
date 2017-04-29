@@ -2,7 +2,7 @@
  * VERSION: 1.2
  * DATE: 2010-03-06
  * AS3 (AS2 version is also available)
- * UPDATES AND DOCUMENTATION AT: http://www.greensock.com/timelinemax/
+ * UPDATES AND DOCUMENTATION AT: https://www.greensock.com/timelinemax/
  **/
 package com.greensock {
 	import com.greensock.core.*;
@@ -136,11 +136,11 @@ package com.greensock {
  * <ul>
  * 	<li> TimelineMax automatically inits the OverwriteManager class to prevent unexpected overwriting behavior in sequences.
  * 	  The default mode is <code>AUTO</code>, but you can set it to whatever you want with <code>OverwriteManager.init()</code>
- * 	 (see <a href="http://www.greensock.com/overwritemanager/">http://www.greensock.com/overwritemanager/</a>)</li>
+ * 	 (see <a href="https://www.greensock.com/overwritemanager/">https://www.greensock.com/overwritemanager/</a>)</li>
  * 	<li> TimelineMax adds about 4.9k to your SWF (not including OverwriteManager).</li>
  * </ul>
  * 
- * <b>Copyright 2010, GreenSock. All rights reserved.</b> This work is subject to the terms in <a href="http://www.greensock.com/terms_of_use.html">http://www.greensock.com/terms_of_use.html</a> or for corporate Club GreenSock members, the software agreement that was issued with the corporate membership.
+ * <b>Copyright 2010, GreenSock. All rights reserved.</b> This work is subject to the terms in <a href="https://www.greensock.com/terms_of_use.html">https://www.greensock.com/terms_of_use.html</a> or for corporate Club GreenSock members, the software agreement that was issued with the corporate membership.
  * 
  * @author Jack Doyle, jack@greensock.com
  **/

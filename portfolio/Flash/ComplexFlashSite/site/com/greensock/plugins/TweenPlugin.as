@@ -2,7 +2,7 @@
  * VERSION: 1.31
  * DATE: 10/22/2009
  * ACTIONSCRIPT VERSION: 3.0 
- * UPDATES AND DOCUMENTATION AT: http://www.TweenMax.com
+ * UPDATES AND DOCUMENTATION AT: https://www.TweenMax.com
  **/
 package com.greensock.plugins {
 	import com.greensock.*;
@@ -57,10 +57,10 @@ package com.greensock.plugins {
  * 		<li> IMPORTANT: The plugin framework is brand new, so there is a chance that it will change slightly over time and 
  * 		  you may need to adjust your custom plugins if the framework changes. I'll try to minimize the changes,
  * 		  but I'd highly recommend getting a membership to Club GreenSock to make sure you get update notifications.
- * 		  See http://blog.greensock.com/club/ for details.</li>
+ * 		  See https://blog.greensock.com/club/ for details.</li>
  * </ol>
  * 
- * <b>Copyright 2010, GreenSock. All rights reserved.</b> This work is subject to the terms in <a href="http://www.greensock.com/terms_of_use.html">http://www.greensock.com/terms_of_use.html</a> or for corporate Club GreenSock members, the software agreement that was issued with the corporate membership.
+ * <b>Copyright 2010, GreenSock. All rights reserved.</b> This work is subject to the terms in <a href="https://www.greensock.com/terms_of_use.html">https://www.greensock.com/terms_of_use.html</a> or for corporate Club GreenSock members, the software agreement that was issued with the corporate membership.
  * 
  * @author Jack Doyle, jack@greensock.com
  */

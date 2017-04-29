@@ -2,7 +2,7 @@
  * VERSION: 11.2
  * DATE: 2010-03-06
  * AS3 (AS2 version is also available)
- * UPDATES AND DOCUMENTATION AT: http://www.TweenMax.com 
+ * UPDATES AND DOCUMENTATION AT: https://www.TweenMax.com 
  **/
 package com.greensock {
 	import com.greensock.core.*;
@@ -21,7 +21,7 @@ package com.greensock {
  * 
  * <ul>
  * 		<li><b> SPEED </b>- TweenMax has been highly optimized for maximum performance. See some speed comparisons yourself at 
- * 			 <a href="http://www.greensock.com/tweening-speed-test/">http://www.greensock.com/tweening-speed-test/</a></li>
+ * 			 <a href="https://www.greensock.com/tweening-speed-test/">https://www.greensock.com/tweening-speed-test/</a></li>
  * 
  * 	    <li><b> Feature set </b>- In addition to tweening ANY numeric property of ANY object, TweenMax can tween filters, 
  * 		  	hex colors, volume, tint, frames, saturation, contrast, hue, colorization, brightness, and even do 
@@ -117,7 +117,7 @@ package com.greensock {
  * 	<li><b> overwrite : int</b>			Controls how (and if) other tweens of the same target are overwritten by this tween. There are
  * 										several modes to choose from, and TweenMax automatically calls <code>OverwriteManager.init()</code> if you haven't
  * 										already manually dones so, which means that by default <code>AUTO</code> mode is used (please see 
- * 										<a href="http://www.greensock.com/overwritemanager/">http://www.greensock.com/overwritemanager/</a> 
+ * 										<a href="https://www.greensock.com/overwritemanager/">https://www.greensock.com/overwritemanager/</a> 
  * 										for details and a full explanation of the various modes):
  * 										<ul>
  * 			  								<li>NONE (0) (or false) </li>
@@ -170,7 +170,7 @@ package com.greensock {
  * 
  * 	There are many plugins that add capabilities through other special properties. Adding the capabilities 
  * 	is as simple as activating the plugin with a single line of code, like <code>TweenPlugin.activate([SetSizePlugin]);</code>
- * 	Get information about all the plugins at <a href="http://www.TweenMax.com">http://www.TweenMax.com</a>. The 
+ * 	Get information about all the plugins at <a href="https://www.TweenMax.com">https://www.TweenMax.com</a>. The 
  *  following plugins are activated by default in TweenMax (you can easily prevent them from activating, thus 
  *  saving file size, by commenting out the associated activation lines towards the top of the class):
  * 	
@@ -259,7 +259,7 @@ package com.greensock {
  * 	
  * <b>EXAMPLES:</b><br /><br /> 
  * 	
- * 	Please see <a href="http://www.tweenmax.com">http://www.tweenmax.com</a> for examples, tutorials, and interactive demos. <br /><br />
+ * 	Please see <a href="https://www.tweenmax.com">https://www.tweenmax.com</a> for examples, tutorials, and interactive demos. <br /><br />
  * 
  * <b>NOTES / TIPS:</b>
  * <ul>
@@ -283,10 +283,10 @@ package com.greensock {
  * 
  * 	<li> If you find this class useful, please consider joining Club GreenSock which not only helps to sustain
  * 	  ongoing development, but also gets you bonus plugins, classes and other benefits that are ONLY available 
- * 	  to members. Learn more at <a href="http://www.greensock.com/club/">http://www.greensock.com/club/</a></li>
+ * 	  to members. Learn more at <a href="https://www.greensock.com/club/">https://www.greensock.com/club/</a></li>
  * 	</ul>
  * 	  
- * <b>Copyright 2010, GreenSock. All rights reserved.</b> This work is subject to the terms in <a href="http://www.greensock.com/terms_of_use.html">http://www.greensock.com/terms_of_use.html</a> or for corporate Club GreenSock members, the software agreement that was issued with the corporate membership.
+ * <b>Copyright 2010, GreenSock. All rights reserved.</b> This work is subject to the terms in <a href="https://www.greensock.com/terms_of_use.html">https://www.greensock.com/terms_of_use.html</a> or for corporate Club GreenSock members, the software agreement that was issued with the corporate membership.
  * 
  * @author Jack Doyle, jack@greensock.com
  */
@@ -384,7 +384,7 @@ package com.greensock {
 		public function TweenMax(target:Object, duration:Number, vars:Object) {
 			super(target, duration, vars);
 			if (TweenLite.version < 11.2) {
-				throw new Error("TweenMax error! Please update your TweenLite class or try deleting your ASO files. TweenMax requires a more recent version. Download updates at http://www.TweenMax.com.");
+				throw new Error("TweenMax error! Please update your TweenLite class or try deleting your ASO files. TweenMax requires a more recent version. Download updates at https://www.TweenMax.com.");
 			}
 			this.yoyo = Boolean(this.vars.yoyo);
 			_repeat = this.vars.repeat || 0;

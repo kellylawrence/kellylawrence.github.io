@@ -3,7 +3,7 @@ This readme file applies to all eases in this directory EXCEPT the CustomEase, E
 ============================================================================================
  Easing Equations
  (c) 2003 Robert Penner, all rights reserved. 
- This work is subject to the terms in http://www.robertpenner.com/easing_terms_of_use.html.
+ This work is subject to the terms in https://www.robertpenner.com/easing_terms_of_use.html.
 ============================================================================================
 
 TERMS OF USE - EASING EQUATIONS

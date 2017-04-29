@@ -3,7 +3,7 @@
  * www.ZURB.com/playground
  * Copyright 2010, ZURB
  * Free to use under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
+ * https://www.opensource.org/licenses/mit-license.php
 */
 
 
@@ -30,8 +30,8 @@
 			}
 			
 			//Raptor Vars
-			var raptorImageMarkup = '<img id="elRaptor" style="display: none" src="http://kellylawrence.ca/global/js/raptor.png" />'
-			var raptorAudioMarkup = '<audio id="elRaptorShriek" preload="auto"><source src="http://kellylawrence.ca/global/js/raptor-sound.mp3" /><source src="http://kellylawrence.ca/global/js/raptor-sound.ogg" /></audio>';	
+			var raptorImageMarkup = '<img id="elRaptor" style="display: none" src="https://kellylawrence.ca/global/js/raptor.png" />'
+			var raptorAudioMarkup = '<audio id="elRaptorShriek" preload="auto"><source src="https://kellylawrence.ca/global/js/raptor-sound.mp3" /><source src="https://kellylawrence.ca/global/js/raptor-sound.ogg" /></audio>';	
 			var locked = false;
 			
 			//Append Raptor and Style

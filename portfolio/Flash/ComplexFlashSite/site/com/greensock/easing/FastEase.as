@@ -2,7 +2,7 @@
  * VERSION: 1.0
  * DATE: 10/18/2009
  * AS3
- * UPDATES AND DOCUMENTATION AT: http://www.TweenMax.com
+ * UPDATES AND DOCUMENTATION AT: https://www.TweenMax.com
  **/
 package com.greensock.easing {
 	import flash.utils.Dictionary;
