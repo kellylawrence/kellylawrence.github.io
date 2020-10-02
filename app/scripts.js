@@ -1,0 +1,1 @@
+function getRandomIntInclusive(e,o){return e=Math.ceil(e),o=Math.floor(o),Math.floor(Math.random()*(o-e+1))+e}var randomNum=getRandomIntInclusive(1,16),hero=document.getElementsByClassName("hero");hero[0].style.backgroundImage="url(images/heroes/"+randomNum+".jpg)";
