@@ -1,0 +1,100 @@
+// 1.250 Major Third -- https://type-scale.com/
+// font-size: 3.052em;  --  48.83px
+// font-size: 2.441em;  --  39.06px
+// font-size: 1.953em;  --  31.25px
+// font-size: 1.563em;  --  25.00px
+// font-size: 1.25em;  --  20.00px
+// font-size: 1.0em;  --  16.00px
+
+$fs-primary: 1.75;
+$fs-secondary: 1.25;
+$fs-tertiary: 0.75;
+$fs-quaternary: 0.5;
+
+a {
+  font-weight: 400;
+}
+
+body {
+  font: {
+    family: 'Roboto Slab', serif;
+    size: 16px;
+  }
+
+  line-height: 1.4;
+}
+
+h1 {
+  // @include fluid-type(39.06px, 48.83px);
+  font-size: calc(1.65vw + 1.65vh);
+  // font-size: 3rem;
+  line-height: 1.15;
+  text-transform: uppercase;
+  @include mobile {
+    font-size: calc(2.5vw + 2.5vh);
+  }
+  @include ultrawide {
+    font-size: calc(1.25vw + 1.25vh);
+  }
+
+  strong {
+    font: {
+      size: 1.5em;
+      weight: 700;
+    }
+  }
+}
+
+p {
+  // @include fluid-type(16px, 20px);
+  font: {
+    size: calc(0.75vw + 0.75vh);
+    // size: 1.25rem;
+    weight: 300;
+  }
+  @include mobile {
+    font-size: calc(1.5vw + 1.5vh);
+  }
+  @include ultrawide {
+    font-size: calc(0.5vw + 0.5vh);
+  }
+}
+
+.intro {
+  font-size: calc(1.25vw + 1.25vh);
+  // @include fluid-type(25px, 31.25px);
+  // font-size: 2.5rem;
+  @include mobile {
+    font-size: calc(2vw + 2vh);
+  }
+  @include ultrawide {
+    font-size: calc(1vw + 1vh);
+  }
+}
+
+.location {
+  font-weight: 100;
+
+  a {
+    font-weight: 400;
+    text-decoration: none;
+  }
+}
+
+.web-presence {
+  font-size: calc(0.5vw + 0.5vh);
+  // @include fluid-type(16px, 16px);
+  // font-size: 1rem;
+  @include mobile {
+    font-size: calc(1vw + 1vh);
+  }
+
+  a {
+    font-weight: 700;
+  }
+}
+
+// Employer Classes
+.employer {
+  text-decoration: none;
+}

@@ -1,0 +1,35 @@
+{
+	"extends": [
+		"stylelint-config-sass-guidelines",
+		"stylelint-config-standard"
+	],
+	"plugins": [
+		"stylelint-order"
+	],
+	"rules": {
+		"at-rule-empty-line-before": [
+			"always", {
+				"except": [
+					"inside-block"
+				],
+				"ignore": [
+					"after-comment"
+				],
+			}
+		],
+		"at-rule-no-unknown": null,
+		"declaration-block-semicolon-newline-after": "always",
+		"max-line-length": null,
+		"order/order": [
+			"custom-properties",
+			"declarations"
+		],
+		"order/properties-alphabetical-order": true,
+		"scss/dollar-variable-colon-space-after": "at-least-one-space",
+		"selector-list-comma-newline-after": "always",
+		"selector-class-pattern": ["^[a-z0-9-]*$", {
+			"message": "Use lowercase and separate words with hyphens when naming selectors. Avoid camelcase and underscores.",
+			"resolveNestedSelectors": true
+		}],
+	}
+}

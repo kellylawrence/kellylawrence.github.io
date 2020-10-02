@@ -1,0 +1,4 @@
+# Ignore Sass cache and Sass generated files.
+**/*.css
+**/sass/style.scss
+**/sass/lib/_reset.scss

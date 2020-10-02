@@ -1,0 +1,211 @@
+// Standard Tags
+::selection {
+  @media (prefers-color-scheme: dark) {
+    background-color: $dark-primary;
+  }
+
+  background-color: $primary;
+  color: $white;
+}
+
+a {
+  @media (prefers-color-scheme: dark) {
+    color: $dark-primary;
+  }
+
+  color: $primary;
+
+  &:hover {
+    @media (prefers-color-scheme: dark) {
+      background-color: $dark-primary;
+      color: $dark-background;
+    }
+
+    background-color: $primary;
+    color: $white;
+  }
+}
+
+body {
+  @media (prefers-color-scheme: dark) {
+    background-color: $dark-background;
+    color: $dark-primary;
+  }
+
+  color: $primary;
+  @include tablet {
+    width: 100%;
+  }
+}
+
+body,
+html {
+  height: 100%;
+}
+
+h1 {
+  strong {
+    display: block;
+  }
+}
+
+iframe {
+  height: 100%;
+  left: -25%;
+  position: relative;
+  width: 150%;
+}
+
+video {
+  width: 100%;
+}
+
+// Custom Classes
+// .container {
+//   @include mobile {
+//     height: 110%;
+//   }
+// }
+
+.content {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  padding: 0 4%;
+  width: 42%;
+
+  &::before {
+    position: absolute;
+    top: 0;
+  }
+  @include mobile {
+    padding: 0 5%;
+    width: 90%;
+    // &::before {
+    //   content: "mobile";
+    // }
+  }
+  // @include tablet {
+  //   &::before {
+  //     content: "tablet";
+  //   }
+  // }
+  // @include desktop {
+  //   &::before {
+  //     content: "desktop";
+  //   }
+  // }
+  // @include ultrawide {
+  //   &::before {
+  //     content: "ultrawide";
+  //   }
+  // }
+}
+
+.gradient-animation {
+  animation: AnimationName 15s ease infinite;
+  background: linear-gradient(90deg, $resulta, $leech, $redspace, $oldsite);
+  // background: linear-gradient(270deg, #9b59b6, #1abc9c, #3498db);
+  background-size: 1000% 1000%;
+  height: 0.5%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+@keyframes AnimationName {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.hero {
+  @media (prefers-color-scheme: dark) {
+    background-color: lighten($dark-background, 5%);
+  }
+  background: {
+    color: #ddd;
+    position: center;
+    size: cover;
+  }
+
+  height: 100%;
+  overflow: hidden;
+  width: 50%;
+  @include mobile {
+    display: none;
+    height: 30vh;
+    margin: 5% 0 0;
+    width: 100%;
+  }
+  @include tablet {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+.intro {
+  padding: calc(1.25vw + 1.25vh) 0;
+  @include mobile {
+    padding: calc(2vw + 2vh) 0;
+  }
+  @include ultrawide {
+    padding: calc(1vw + 1vh) 0;
+  }
+}
+
+.location {
+  @media (prefers-color-scheme: dark) {
+    background-color: $dark-background;
+    color: $dark-primary;
+  }
+
+  background-color: $primary;
+  bottom: 7.5%;
+  color: $white;
+  position: absolute;
+  right: 7%;
+
+  a {
+    color: $white;
+    display: block;
+    margin: 5px;
+  }
+}
+
+.web-presence {
+  margin: 5.5% 0 0;
+}
+
+// Employer Classes
+.employer {
+  padding: 0 5px;
+
+  &:hover {
+    @media (prefers-color-scheme: dark) {
+      background-color: $dark-primary;
+      color: $dark-background;
+    }
+
+    background-color: $primary;
+    color: $white;
+  }
+}
+
+.resulta {
+  background-color: $resulta;
+  color: $white;
+}
+
+.leech {
+  background-color: $leech;
+  color: $white;
+}
+
+.redspace {
+  background-color: $redspace;
+  color: $white;
+}

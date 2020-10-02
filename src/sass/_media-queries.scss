@@ -1,0 +1,29 @@
+// Device Size Variables
+$tablet-width:    768px; //48em
+$desktop-width:   1024px; //64em
+$ultrawide-width: 1920px; //120em
+
+// Media Query Mixins
+@mixin mobile {
+  @media (max-width: #{$tablet-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+@mixin ultrawide {
+  @media (min-width: #{$ultrawide-width + 1px}) {
+    @content;
+  }
+}
