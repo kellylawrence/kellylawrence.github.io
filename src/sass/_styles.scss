@@ -104,9 +104,8 @@ video {
 }
 
 .gradient-animation {
-  animation: AnimationName 15s ease infinite;
-  background: linear-gradient(90deg, $resulta, $leech, $redspace, $oldsite);
-  // background: linear-gradient(270deg, #9b59b6, #1abc9c, #3498db);
+  animation: AnimationName 15s ease-in-out infinite;
+  background: linear-gradient(90deg, $bt, $leech, $redspace, $oldsite, $resulta);
   background-size: 1000% 1000%;
   height: 0.5%;
   position: absolute;
@@ -195,8 +194,8 @@ video {
   }
 }
 
-.resulta {
-  background-color: $resulta;
+.bt {
+  background-color: $bt;
   color: $white;
 }
 
@@ -207,5 +206,10 @@ video {
 
 .redspace {
   background-color: $redspace;
+  color: $white;
+}
+
+.resulta {
+  background-color: $resulta;
   color: $white;
 }
