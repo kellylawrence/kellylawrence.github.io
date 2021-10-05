@@ -14,7 +14,7 @@
 				],
 				"ignore": [
 					"after-comment"
-				],
+				]
 			}
 		],
 		"at-rule-no-unknown": null,
@@ -30,6 +30,6 @@
 		"selector-class-pattern": ["^[a-z0-9-]*$", {
 			"message": "Use lowercase and separate words with hyphens when naming selectors. Avoid camelcase and underscores.",
 			"resolveNestedSelectors": true
-		}],
+		}]
 	}
 }
