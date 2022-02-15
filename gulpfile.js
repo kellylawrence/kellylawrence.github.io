@@ -29,7 +29,7 @@ const paths = {
         dest: './app'
     },
     html: {
-        src: './src/**/*.html',
+        src: './src/**/*.{html,webmanifest,xml}',
         dest: './app'
     },
     images: {
@@ -63,6 +63,7 @@ exports.favicons = favicons;
 // Options
 const htmlNanoOptions = {
     collapseWhitespace: true,
+    minifyCSS: true,
     removeComments: true,
 }
 
