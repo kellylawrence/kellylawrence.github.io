@@ -24,6 +24,10 @@ const paths = {
         src: './app/**/*.css',
         dest: './app/**/*.css'
     },
+    favicons: {
+        src: './src/favicons/**/*',
+        dest: './app'
+    },
     html: {
         src: './src/**/*.html',
         dest: './app'
@@ -41,6 +45,17 @@ const paths = {
         dest: './app'
     }
 };
+
+////////////
+// Favicons //
+////////////
+function favicons() {
+    return gulp
+        .src(paths.favicons.src)
+        .pipe(imagemin())
+        .pipe(gulp.dest(paths.favicons.dest));
+}
+exports.favicons = favicons;
 
 //////////
 // HTML //
@@ -125,7 +140,7 @@ function reload() {
 /////////////
 // Default //
 /////////////
-gulp.task('default', gulp.parallel(style, html, images, js));
+gulp.task('default', gulp.parallel(style, favicons, html, images, js));
 
 ///////////
 // Watch //
@@ -137,6 +152,7 @@ function watch(){
         }
     });
     gulp.watch(paths.styles.src, style);
+    gulp.watch(paths.favicons.src, favicons);
     gulp.watch(paths.html.src, html);
     gulp.watch(paths.images.src, images);
     gulp.watch(paths.js.src, js);
