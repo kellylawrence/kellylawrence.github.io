@@ -1,0 +1,12 @@
+{
+    "name": "Kelly Lawrence | Front-end Developer And Designer",
+    "short_name": "Kelly | Dev",
+    "icons": [
+      { "src": "icon-192.png", "type": "image/png", "sizes": "192x192" },
+      { "src": "icon-512.png", "type": "image/png", "sizes": "512x512" }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "start_url": "https://www.kellylawrence.ca",
+    "display": "standalone"
+}
