@@ -84,10 +84,22 @@
     </div>
   </div>
   <div class="hero">
-    <!-- <span class="location"></span> -->
+    <span class="title"></span>
   </div>
   <script>
-  function getRandomIntInclusive(e,o){return e=Math.ceil(e),o=Math.floor(o),Math.floor(Math.random()*(o-e+1))+e}var randomNum=getRandomIntInclusive(1,24),hero=document.getElementsByClassName("hero");hero[0].style.backgroundImage="url(images/heroes/"+randomNum+".jpg)";
-  </script>
+      const heroContainer = document.getElementsByClassName("hero")[0];
+      const heroTitle = document.getElementsByClassName('title')[0];
+
+      fetch('images/heroes/heroes.json')
+      .then(res => res.json())
+      .then(data => {
+            const baseURL = data.baseURL;
+            const heroes = Object.keys(data.heroes[0]).length;
+            const randomNum = Math.floor(Math.random() * heroes) + 1;
+            const heroItem = data.heroes[0][randomNum];
+            heroContainer.style.backgroundImage=`url(${baseURL}/${randomNum}.jpg)`;
+            // heroTitle.innerHTML = heroItem.title;
+      });
+</script>
 </body>
 </html>
