@@ -156,9 +156,9 @@ video {
   }
 }
 
-.location {
+.title {
   @media (prefers-color-scheme: dark) {
-    background-color: $dark-background;
+    @include background-opacity($dark-background, 0.5)
     color: $dark-primary;
   }
 
@@ -167,6 +167,10 @@ video {
   color: $white;
   position: absolute;
   right: 7%;
+
+  &:not(:empty) {
+    padding: .5rem;
+  }
 
   a {
     color: $white;
