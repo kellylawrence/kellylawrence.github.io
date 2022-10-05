@@ -86,20 +86,7 @@
   <div class="hero">
     <span class="title"></span>
   </div>
-  <script>
-      const heroContainer = document.getElementsByClassName("hero")[0];
-      const heroTitle = document.getElementsByClassName('title')[0];
-
-      fetch('images/heroes/heroes.json')
-      .then(res => res.json())
-      .then(data => {
-            const baseURL = data.baseURL;
-            const heroes = Object.keys(data.heroes[0]).length;
-            const randomNum = Math.floor(Math.random() * heroes) + 1;
-            const heroItem = data.heroes[0][randomNum];
-            heroContainer.style.backgroundImage=`url(${baseURL}/${randomNum}.jpg)`;
-            // heroTitle.innerHTML = heroItem.title;
-      });
+  <script>const heroContainer = document.getElementsByClassName("hero")[0];const heroTitle = document.getElementsByClassName('title')[0];fetch('images/heroes/heroes.json').then(res => res.json()).then(data => {const baseURL = data.baseURL;const heroes = Object.keys(data.heroes[0]).length;const randomNum = Math.floor(Math.random() * heroes) + 1;const heroItem = data.heroes[0][randomNum];heroContainer.style.backgroundImage=`url(${baseURL}/${randomNum}.jpg)`;});
 </script>
 </body>
 </html>
